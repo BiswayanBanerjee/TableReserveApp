@@ -18,10 +18,12 @@ const MYSQL_HOST = "sql12.freesqldatabase.com/"; // Your MySQL host
 const MYSQL_USER = "sql12756006"; // Your MySQL username
 const MYSQL_PASSWORD = "8Bfim1T41Q"; // Your MySQL password
 const MYSQL_DATABASE = "sql12756006"; // Your MySQL database name
+const MYSQL_PORT=3306;
 
 export const mysqlPool = mysql.createPool({
   host: MYSQL_HOST,
   user: MYSQL_USER,
   password: MYSQL_PASSWORD,
   database: MYSQL_DATABASE,
+  port:MYSQL_PORT,
 });
