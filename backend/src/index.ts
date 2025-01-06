@@ -46,7 +46,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Allow requests from your frontend
-const allowedOrigins = ["http://localhost:3000", "https://your-frontend.netlify.app"];
+const allowedOrigins = ["http://localhost:3000", "https://dinebook-ajbn.onrender.com"];
 
 app.use(
   cors({
