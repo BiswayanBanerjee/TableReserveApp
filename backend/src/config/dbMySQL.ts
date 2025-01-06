@@ -14,10 +14,10 @@
 import mysql from "mysql2/promise";
 
 // Directly include MySQL connection details
-const MYSQL_HOST = "localhost"; // Your MySQL host
-const MYSQL_USER = "root"; // Your MySQL username
-const MYSQL_PASSWORD = "Nayan29@Account"; // Your MySQL password
-const MYSQL_DATABASE = "bookingdb"; // Your MySQL database name
+const MYSQL_HOST = "sql12.freesqldatabase.com/"; // Your MySQL host
+const MYSQL_USER = "sql12756006"; // Your MySQL username
+const MYSQL_PASSWORD = "8Bfim1T41Q"; // Your MySQL password
+const MYSQL_DATABASE = "sql12756006"; // Your MySQL database name
 
 export const mysqlPool = mysql.createPool({
   host: MYSQL_HOST,
