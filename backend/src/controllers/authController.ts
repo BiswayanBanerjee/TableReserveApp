@@ -118,7 +118,8 @@
 
 
 import { Request, Response } from "express";
-import bcrypt from "bcrypt";
+// import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import { mysqlPool } from "../config/dbMySQL";
 import { generateOTP } from "../utils/otpGenerator";
 import { sendEmail } from "../utils/emailHelper";
